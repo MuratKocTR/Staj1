@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <style>
+      h1{
+        color:red;
+      }
+      body{
+        background-color: grey;
+        background-image: url(https://cdn.pixabay.com/photo/2021/11/11/20/49/sauerland-6787215_960_720.jpg);
+        
+      }
+    
+
+      
+      div{
+        border:1px solid black;
+        margin-top:3px;
+        margin-left:5px;
+        margin-bottom:5px;
+        margin-right:5px;
+        padding:5px;
+        background-color:darkgreen;
+      }
+      .avatar {
+  vertical-align: middle;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  
+}
+        
+      
+      table{
+        border-collapse:collapse;
+        width: 300px;
+        
+      }
+      table,th,td{
+        border:1px solid black;
+      }
+      th{
+        height: 30px;
+        text-align: center;
+
+      }
+      td{
+        height: 15px;
+        text-align: center;
+      }
+      tr:hover{
+        background-color: darkgray;
+      }
+      tr:nth-child(even){
+        background-color: red;
+      }
+      tr:nth-child(odd){
+        background-color: green;
+      }
+  
+      input[type=password],input[type=text]{
+        width:35%;
+        padding: 5px;
+        border:2px solid black;
+        color:rgb(0, 255, 0);
+        
+      }
+      input[type=text]:focus,input[type=password]:focus{
+       background-color:aqua;
+      }
+    </style>
+  </head>
+  <!--birden çok component üzerindede değişim yapabiliriz -->
+  <!--padding tablolarda kullanılabilir -->
+  <!-- üst tarafta padding left right top bottom şeklindede kullanılabilir  -->
+  <body>
+    <img src="IMG-20180612-WA0000.jpg" alt="Avatar" class="avatar">
+    <div>
+      Murat Koç
+    </div>
+    Adınız :<input type="text">
+    <br></br>
+    Soyadınız :<input type="text">
+    <br></br>
+    Parolanız :<input type="password">
+    <br></br>
+    <input type="submit">
+    <h2>Hello from the other side</h2>
+    <p>merhabalar</p>
+    <br></br><!-- boşluk için kullanılır -->
+    <p>meyveler</p>
+    <!-- Sıralanmamış liste  -->
+    <ul> 
+      <li>Elma</li>
+      <li>Armut</li>
+      <li>Portakal</li>
+      <li>Kivi</li>
+    </ul>
+<!-- sıralı liste -->
+    <ol> <!--liste içinde liste yapabilirsin -->
+      <li>Elma
+        <ul> 
+          <li>Kırmızı Elma</li>
+          <li>Yeşil Elma</li>
+          <li>Sarı Elma</li>
+        </ul>
+      </li>
+      <li>Armut</li>
+      <li>Portakal</li>
+      <li>Kivi</li>
+    </ol>
+    <table>
+      <caption style="color:red">Aile Bireyleri</caption>
+      <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Yaş</th>
+        <th>Cinsiyet</th>
+      </tr>
+      <tr> <!--satir icin tr kullanırız sütun içinse td kullanırız
+        th yi ise sütunların adlarını girmek için kullanırız  -->
+        <td>Murat</td>
+        <td>Koç</td>
+        <td>22</td>
+        <td>Erkek</td>
+      </tr>
+      <tr>
+        <td>Sevgi</td>
+        <td>Koç</td>
+        <td>42</td>
+        <td>Kadin</td>
+      </tr>
+      <tr>
+        <td>Cevher</td>
+        <td>Koç</td>
+        <td>43</td>
+        <td>Erkek</td>
+      </tr>
+      <tr>
+        <td>Buse</td>
+        <td>Koç</td>
+        <td>17</td>
+        <td>Kadin</td>
+      </tr>
+    </table>
+    <br></br>
+     <a href="link.html">Bir Sonraki Sayfaya Git</a>
+     <br></br>
+     <a href="tablo.html">Tablo sayfasina Git</a>
+     <br></br>
+     <a href="formatting.html">formatting sayfasina Git</a>
+     <br></br>
+     <a href="layout.html">layout sayfasina Git</a>
+      <br></br>
+     <a href="form.html">form sayfasina Git</a>
+    
+  </body>
+</html>
