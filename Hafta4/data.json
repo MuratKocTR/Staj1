@@ -1,0 +1,17 @@
+﻿[
+    {
+      "id": 1,
+      "Name": "Murat",
+      "surName":"Koç"
+    },
+    {
+      "id": 2,
+      "Name": "Cevher",
+      "surName":"Koç"
+    },
+    {
+      "id": 3,
+      "Name": "Sevgi",
+      "surName":"Koç"
+    }
+  ]
